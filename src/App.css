@@ -1,0 +1,41 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Neon text effect */
+.neon-text {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+               0 0 10px rgba(255, 255, 255, 0.5), 
+               0 0 20px rgba(98, 0, 238, 1), 
+               0 0 30px rgba(98, 0, 238, 1), 
+               0 0 40px rgba(98, 0, 238, 1);
+}
+
+/* Neon icon effect */
+.neon-icon {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+               0 0 10px rgba(255, 255, 255, 0.5), 
+               0 0 20px rgba(98, 0, 238, 1), 
+               0 0 30px rgba(98, 0, 238, 1), 
+               0 0 40px rgba(98, 0, 238, 1);
+}
+
+/* Neon button effect */
+.neon-button {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+              0 0 10px rgba(255, 255, 255, 0.5), 
+              0 0 20px rgba(98, 0, 238, 1), 
+              0 0 30px rgba(98, 0, 238, 1), 
+              0 0 40px rgba(98, 0, 238, 1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1), 
+              0 0 20px rgba(255, 255, 255, 1), 
+              0 0 30px rgba(98, 0, 238, 1), 
+              0 0 40px rgba(98, 0, 238, 1);
+}
